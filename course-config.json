@@ -1,0 +1,74 @@
+{
+  "course_title": "Prompt Engineering for Beginners",
+  "lesson": "What is a Prompt?",
+  "duration": "2 minutes",
+  "voice_settings": {
+    "primary": {
+      "name": "Rachel",
+      "voice_id": "21m00XiQhS05F1HzF3D",
+      "description": "Female, warm, educational"
+    },
+    "emotion_presets": {
+      "cheerful": {
+        "stability": 0.3,
+        "similarity_boost": 0.8,
+        "style": 0.8,
+        "speed": 1.05,
+        "use_case": "Welcome videos, hooks"
+      },
+      "professional": {
+        "stability": 0.6,
+        "similarity_boost": 0.8,
+        "style": 0.4,
+        "speed": 1.0,
+        "use_case": "Definitions, explanations"
+      },
+      "excited": {
+        "stability": 0.2,
+        "similarity_boost": 0.8,
+        "style": 0.9,
+        "speed": 1.1,
+        "use_case": "Announcements, calls to action"
+      },
+      "storytelling": {
+        "stability": 0.4,
+        "similarity_boost": 0.8,
+        "style": 0.6,
+        "speed": 0.95,
+        "use_case": "Analogies, examples"
+      }
+    }
+  },
+  "avatar_settings": {
+    "heygen": {
+      "avatar": "Instructor - Professional",
+      "resolution": "1920x1080",
+      "frame_rate": 30,
+      "background_options": [
+        "Modern Office",
+        "Studio Gradient",
+        "Brand Background",
+        "Presentation"
+      ],
+      "transitions": [
+        {"name": "Fade", "duration_ms": 500},
+        {"name": "Slide Left", "duration_ms": 300},
+        {"name": "Zoom In", "duration_ms": 400}
+      ]
+    }
+  },
+  "slide_settings": {
+    "gamma": {
+      "theme": "Modern Dark",
+      "accent_color": "#667eea",
+      "font": "Inter",
+      "slide_count": 10
+    }
+  },
+  "quiz_settings": {
+    "passing_score": 80,
+    "questions": 5,
+    "time_limit_minutes": 3,
+    "retake_allowed": 3
+  }
+}
